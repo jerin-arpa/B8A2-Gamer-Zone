@@ -3,6 +3,8 @@ body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 .pink-color {
@@ -432,8 +434,8 @@ button>p {
 .action-gaming-section {
     max-width: 1500px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -659,11 +661,203 @@ footer {
         width: 100%;
     }
 
+    .gaming-section {
+        background-color: rgb(255, 66, 165, 3%);
+        padding: 1rem 0px;
+    }
+
     .action-gaming-section {
-        background-color: red;
+        max-width: 575px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .games {
+        display: flex;
+        height: 45%;
+        margin: .2rem;
+        padding: 0.2rem 0.4rem;
+        border-radius: 25px;
+        background-color: white;
+        color: #0B0223;
+        border: 1px solid white;
+    }
+    
+    .games img {
+        width: 50%;
+        height: 90%;
+        padding-right: 5px;
+    }
+    
+    .games p {
+        font-size: 0.5rem;
+    }
+    
+    .games:hover {
+        color: #F948B2;
+        border: 1px solid #F948B2;
     }
 
 }
 
 /* For tab device */
-@media screen and (min-width:576px) and (min-width:992px) {}
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav,
+    nav>ul,
+    .gamer-section,
+    .funny-videos-section,
+    .play-instantly-section,
+    .careers-section,
+    .footer-section-list ul,
+    .social-link-section,
+    .terms-and-conditions-section ul {
+        flex-direction: column;
+    }
+
+    ul>li {
+        margin: 15px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .play-section,
+    .play-game-section {
+        flex-direction: column-reverse;
+    }
+
+    .right-align {
+        text-align: center;
+    }
+
+    .gamer-section-description {
+        margin-left: 0;
+    }
+
+    .gamer-section-heading {
+        margin-top: 1rem;
+    }
+
+    .funny-videos-section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+
+    .play-game {
+        width: 100%;
+        align-items: center;
+    }
+
+    .play-game>p {
+        width: 26rem;
+        font-size: 0.8rem;
+        color: #534C64;
+        text-align: center;
+    }
+
+    .play-instantly {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .play-instantly-description {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .play-game-anywhere {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .play-game-description {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .play-instantly-img {
+        bottom: 95px;
+        right: 56px;
+    }
+
+    .play-game-heading {
+        margin-top: 0px;
+    }
+
+    .play-game-img {
+        bottom: 70px;
+        left: 160px;
+    }
+
+    .careers-section-part {
+        width: 100%;
+    }
+
+    .footer-section-list ul,
+    .social-link-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-section-list>ul>li {
+        padding: 0px 2rem 0px 0px;
+        width: 100%;
+    }
+
+    .terms-and-conditions-section ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 3rem 0px 0px;
+    }
+
+    .terms-and-conditions-section>ul>li {
+        padding: 0px 3.4rem 0px 35px;
+        width: 100%;
+    }
+
+    .gaming-section {
+        background-color: rgb(255, 66, 165, 3%);
+        padding: 1rem 0px;
+    }
+
+    .action-gaming-section {
+        display: grid;
+        padding: 2rem;
+        max-width: 920px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .games {
+        display: flex;
+        height: 45%;
+        margin: .6rem;
+        padding: 0.6rem 1rem;
+        border-radius: 25px;
+        background-color: white;
+        color: #0B0223;
+        border: 1px solid white;
+    }
+    
+    .games img {
+        width: 25%;
+        height: 100%;
+        padding-right: 5px;
+    }
+    
+    .games p {
+        font-size: 1.2rem;
+    }
+    
+    .games:hover {
+        color: #F948B2;
+        border: 1px solid #F948B2;
+    }
+}
