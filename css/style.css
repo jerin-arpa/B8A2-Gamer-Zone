@@ -325,6 +325,7 @@ button>p {
 /* Careers related style */
 .careers {
     background-color: rgba(255, 66, 165, 100%);
+    ;
 }
 
 .careers-section {
@@ -356,16 +357,95 @@ button>p {
 
 .server-developer-engineer>h2 {
     font-size: 1.4rem;
+    font-weight: 400;
 }
 
 .server-developer>h2 {
     text-align: end;
     font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.btn-second {
+    background-color: white;
+    color: #F948B2;
 }
 
 /* gaming related style */
 
+
+
 /* footer related style */
+footer {
+    background-color: #0B0223;
+    margin-top: 100px;
+}
+
+.footer-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.footer-section-heading {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.gamer-logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.white-color {
+    color: white;
+}
+
+.footer-section-list ul {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.footer-section-list>ul>li {
+    padding: 2.5rem 1.2rem 0px 1.2rem;
+}
+
+.social-link-section {
+    display: flex;
+    justify-content: center;
+    margin: 4.5rem;
+}
+
+.social-link-section i {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.terms-and-conditions-section {
+    color: rgba(255, 255, 255, 60%);
+    font-weight: 400;
+}
+
+.terms-and-conditions-section ul {
+    display: flex;
+    justify-content: center;
+}
+
+.terms-and-conditions-section>ul>li {
+    padding: 0px 1.2rem;
+    color: rgba(255, 255, 255, 60%);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.terms-and-conditions-section p {
+    text-align: center;
+    padding-top: 1.2rem;
+}
 
 
 
@@ -379,7 +459,10 @@ button>p {
     .gamer-section,
     .funny-videos-section,
     .play-instantly-section,
-    .careers-section {
+    .careers-section,
+    .footer-section-list ul,
+    .social-link-section,
+    .terms-and-conditions-section ul {
         flex-direction: column;
     }
 
@@ -463,6 +546,36 @@ button>p {
         bottom: 70px;
         left: 160px;
     }
+
+    .footer-section-list ul,
+    .social-link-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-section-list>ul>li {
+        padding: 0px 2rem 0px 0px;
+        width: 100%;
+    }
+
+    .terms-and-conditions-section ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px 3rem 0px 0px;
+    }
+
+    .terms-and-conditions-section>ul>li {
+        padding: 0px 3.4rem 0px 35px;
+        width: 100%;
+    }
+
+    .terms-and-conditions-section p {
+        width: 100%;
+        background-color: red;
+        margin: 0px;
+        padding: 0px 3.4rem 0px 35px;
+    }
+
 }
 
 /* For tab device */
