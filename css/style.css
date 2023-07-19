@@ -1,0 +1,469 @@
+/* common shared files */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pink-color {
+    color: rgba(255, 66, 165, 100%);
+}
+
+.blue-color {
+    color: rgba(11, 2, 35, 100%);
+}
+
+.gradient-color {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.btn-primary {
+    background-color: #F948B2;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: none;
+    padding: 16px 35px;
+    border-radius: 40px;
+    margin-top: 1.3rem;
+}
+
+
+
+/* header related style */
+/* Nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.gamer-logo {
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-right: 1.2rem;
+}
+
+.logo-heading {
+    font-size: 2.8rem;
+}
+
+nav>ul,
+nav>div {
+    display: flex;
+}
+
+ul {
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul>li a {
+    text-decoration: none;
+    margin: 5px 15px;
+    color: #3C354F;
+}
+
+.nav-button {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+button>p {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.youtube-icon {
+    width: 1.6rem;
+    margin: 4px 10px;
+}
+
+.tiktok-icon {
+    width: 1.6rem;
+    margin: 4px 10px;
+}
+
+
+
+/* banner related style */
+.banner-section {
+    background-image: url(..//images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.play-section {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.banner-description {
+    display: flex;
+}
+
+.banner-description>i {
+    margin-right: 1rem;
+    color: #F948B2;
+    padding-top: 0.3rem;
+}
+
+.click-instant-play {
+    margin-top: 2rem;
+}
+
+.banner-description>p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.play-like-section {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 140px;
+    margin-left: 0;
+}
+
+.play-like-goat-section {
+    font-size: 6rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.btn-bg-color {
+    background-color: #4EC5F7;
+    margin-left: 1rem;
+}
+
+
+
+/* main related style */
+/* We are gamer related style */
+.we-are-gamer-section {
+    background-color: rgb(255, 66, 165, 3%);
+}
+
+.gamer-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.gamer-section>img {
+    margin-top: 4rem;
+}
+
+.gamer-section-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+.gamer-section-description {
+    font-size: 1.2rem;
+    color: #534C64;
+    margin-left: 5rem;
+}
+
+.right-align {
+    text-align: end;
+    margin-top: 2rem;
+}
+
+.our-purpose {
+    font-size: 1.3rem;
+    color: #534C64;
+    margin-top: 1.5rem;
+}
+
+.unleash-the-gamer {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+
+/* online games and funny videos related style */
+.online-game-and-funny-videos-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.online-game-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.online-games {
+    color: #0B0223;
+}
+
+.online-game-heading-description {
+    color: #534C64;
+    font-size: 1rem;
+    margin-bottom: 2.7rem;
+    text-align: center;
+}
+
+.funny-videos-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-game>p {
+    width: 20rem;
+    font-size: 0.8rem;
+    color: #534C64;
+}
+
+
+
+/* Play Instantly related style */
+.play-instantly-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-instantly {
+    padding-left: 14.4rem;
+    padding-right: 14.4rem;
+    padding-bottom: 16rem;
+    text-align: end;
+    width: 30%;
+}
+
+.play-instantly-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    font-size: 1.2rem;
+}
+
+.play-instantly-img {
+    position: relative;
+    bottom: 240px;
+    right: 130px;
+    width: 50%;
+}
+
+.play-instantly-image-section {
+    width: 50%;
+}
+
+.play-game-image {
+    width: 100%;
+}
+
+
+
+/* play game related style */
+.play-game-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play-game-anywhere {
+    padding-left: 16rem;
+    padding-right: 8rem;
+    padding-bottom: 14.5rem;
+    width: 30%;
+}
+
+.play-game-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.play-game-description {
+    color: #534C64;
+    font-size: 1.2rem;
+}
+
+.play-game-img {
+    position: relative;
+    bottom: 250px;
+    left: 520px;
+}
+
+
+/* Careers related style */
+.careers {
+    background-color: rgba(255, 66, 165, 100%);
+}
+
+.careers-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.careers-section-part {
+    width: 100%;
+}
+
+.careers-section-heading {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.careers-section-description {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.multimedia-artist {
+    display: flex;
+    color: white;
+}
+
+.server-developer-engineer>h2 {
+    font-size: 1.4rem;
+}
+
+.server-developer>h2 {
+    text-align: end;
+    font-size: 1.4rem;
+}
+
+/* gaming related style */
+
+/* footer related style */
+
+
+
+
+/* Responsive related style */
+/* For mobile device */
+@media screen and (max-width:576px) {
+
+    nav,
+    nav>ul,
+    .gamer-section,
+    .funny-videos-section,
+    .play-instantly-section,
+    .careers-section {
+        flex-direction: column;
+    }
+
+    ul>li {
+        margin: 15px;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .play-section,
+    .play-game-section {
+        flex-direction: column-reverse;
+    }
+
+    .right-align {
+        text-align: center;
+    }
+
+    .gamer-section-description {
+        margin-left: 0;
+    }
+
+    .gamer-section-heading {
+        margin-top: 1rem;
+    }
+
+    .funny-videos-section {
+        text-align: center;
+    }
+
+    .play-game {
+        width: 100%;
+        align-items: center;
+    }
+
+    .play-game>p {
+        width: 26rem;
+        font-size: 0.8rem;
+        color: #534C64;
+        text-align: center;
+    }
+
+    .play-instantly {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .play-instantly-description {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .play-game-anywhere {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .play-game-description {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .play-instantly-img {
+        bottom: 95px;
+        right: 56px;
+    }
+
+    .play-game-heading {
+        margin-top: 0px;
+    }
+
+    .play-game-img {
+        bottom: 70px;
+        left: 160px;
+    }
+}
+
+/* For tab device */
+@media screen and (min-width:576px) and (min-width:992px) {}
