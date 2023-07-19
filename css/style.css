@@ -243,6 +243,57 @@ button>p {
 }
 
 
+/* hover-related syle */
+.play-game-hover {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 5px solid transparent;
+}
+
+.hover-item {
+    position: absolute;
+    height: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+    top: -1%;
+    left: -1%;
+    border: 5px solid transparent;
+}
+
+.image-hover {
+    height: 100%;
+    width: 100%;
+}
+
+.image-hover img {
+    height: 100%;
+}
+
+.hover-item i {
+    color: white;
+    font-size: 3rem;
+    padding-top: 45%;
+}
+
+.hover-item p {
+    color: #F948B2;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.play-game-hover:hover .hover-item {
+    display: block;
+    background-color: rgba(37, 32, 32, 0.6);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #F948B2;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* Play Instantly related style */
 .play-instantly-section {
@@ -336,7 +387,7 @@ button>p {
 }
 
 .careers-section-part {
-    width: 100%;
+    width: 50%;
 }
 
 .careers-section-heading {
@@ -371,14 +422,49 @@ button>p {
     color: #F948B2;
 }
 
-/* gaming related style */
 
+/* gaming related style */
+.gaming-section {
+    background-color: rgb(255, 66, 165, 3%);
+    padding: 8rem 0px;
+}
+
+.action-gaming-section {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+}
+
+.games {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem 1.4rem;
+    border-radius: 55px;
+    background-color: white;
+    color: #0B0223;
+    border: 1px solid white;
+}
+
+.games img {
+    padding-right: 10px;
+}
+
+.games p {
+    font-size: 1.2rem;
+}
+
+.games:hover {
+    font-size: 1.2rem;
+    color: #F948B2;
+    border: 1px solid #F948B2;
+}
 
 
 /* footer related style */
 footer {
     background-color: #0B0223;
-    margin-top: 100px;
 }
 
 .footer-section {
@@ -547,6 +633,10 @@ footer {
         left: 160px;
     }
 
+    .careers-section-part {
+        width: 100%;
+    }
+
     .footer-section-list ul,
     .social-link-section {
         display: grid;
@@ -569,11 +659,8 @@ footer {
         width: 100%;
     }
 
-    .terms-and-conditions-section p {
-        width: 100%;
+    .action-gaming-section {
         background-color: red;
-        margin: 0px;
-        padding: 0px 3.4rem 0px 35px;
     }
 
 }
