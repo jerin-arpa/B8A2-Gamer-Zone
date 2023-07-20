@@ -805,12 +805,28 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         text-align: center;
+        font-size: 1rem;
+    }
+
+    .footer-section-list>ul>li {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .social-link-section i {
+        font-size: 2rem;
     }
 
     .terms-and-conditions-section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .terms-and-conditions-section ul>li {
+        font-size: 0.8rem;
+    }
+
+    .terms-and-conditions-section p {
         font-size: 0.8rem;
     }
 
@@ -829,7 +845,7 @@ footer {
     .games {
         display: flex;
         height: 45%;
-        margin: .6rem;
+        margin: .2rem;
         padding: 0.6rem 1rem;
         border-radius: 32px;
         background-color: white;
@@ -842,7 +858,7 @@ footer {
     }
 
     .games p {
-        font-size: 1.1rem;
+        font-size: 0.7rem;
     }
 
     .games:hover {
