@@ -376,56 +376,6 @@ button>p {
 }
 
 
-/* Careers related style */
-.careers {
-    background-color: rgba(255, 66, 165, 100%);
-    ;
-}
-
-.careers-section {
-    max-width: 1500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.careers-section-part {
-    width: 50%;
-}
-
-.careers-section-heading {
-    font-size: 3rem;
-    margin-bottom: 0;
-    color: white;
-}
-
-.careers-section-description {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.multimedia-artist {
-    display: flex;
-    color: white;
-}
-
-.server-developer-engineer>h2 {
-    font-size: 1.4rem;
-    font-weight: 400;
-}
-
-.server-developer>h2 {
-    text-align: end;
-    font-size: 1.4rem;
-    font-weight: 400;
-}
-
-.btn-second {
-    background-color: white;
-    color: #F948B2;
-}
-
-
 /* gaming related style */
 .gaming-section {
     background-color: rgb(255, 66, 165, 3%);
@@ -639,10 +589,6 @@ footer {
         left: 160px;
     }
 
-    .careers-section-part {
-        width: 100%;
-    }
-
     .footer-section-list ul,
     .social-link-section {
         display: grid;
@@ -800,10 +746,6 @@ footer {
     .play-game-img {
         bottom: 70px;
         left: 160px;
-    }
-
-    .careers-section-part {
-        width: 100%;
     }
 
     .footer-section-list ul,
