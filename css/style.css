@@ -214,6 +214,7 @@ button>p {
     max-width: 1500px;
     margin: 0 auto;
     margin-top: 100px;
+    overflow-x: hidden;
 }
 
 .online-game-heading {
@@ -467,6 +468,7 @@ button>p {
 /* footer related style */
 footer {
     background-color: #0B0223;
+    overflow-x: hidden;
 }
 
 .footer-section {
@@ -835,7 +837,7 @@ footer {
         display: grid;
         padding: 2rem;
         max-width: 920px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .games {
