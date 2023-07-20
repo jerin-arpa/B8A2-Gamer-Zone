@@ -54,7 +54,7 @@ nav {
 }
 
 .logo-heading {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
 }
 
 nav>ul,
@@ -682,17 +682,17 @@ footer {
         color: #0B0223;
         border: 1px solid white;
     }
-    
+
     .games img {
         width: 50%;
         height: 90%;
         padding-right: 5px;
     }
-    
+
     .games p {
         font-size: 0.5rem;
     }
-    
+
     .games:hover {
         color: #F948B2;
         border: 1px solid #F948B2;
@@ -702,6 +702,7 @@ footer {
 
 /* For tab device */
 @media screen and (min-width:576px) and (max-width:992px) {
+
     nav,
     nav>ul,
     .gamer-section,
@@ -741,7 +742,7 @@ footer {
 
     .funny-videos-section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         text-align: center;
     }
 
@@ -845,17 +846,17 @@ footer {
         color: #0B0223;
         border: 1px solid white;
     }
-    
+
     .games img {
         width: 25%;
         height: 100%;
         padding-right: 5px;
     }
-    
+
     .games p {
         font-size: 1.2rem;
     }
-    
+
     .games:hover {
         color: #F948B2;
         border: 1px solid #F948B2;
