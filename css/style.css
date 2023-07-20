@@ -35,6 +35,8 @@ body {
 
 
 
+
+
 /* header related style */
 /* Nav related style */
 nav {
@@ -106,6 +108,8 @@ button>p {
 
 
 
+
+
 /* banner related style */
 .banner-section {
     background-image: url(..//images/Group\ 14.png);
@@ -162,6 +166,7 @@ button>p {
 
 
 
+
 /* main related style */
 /* We are gamer related style */
 .we-are-gamer-section {
@@ -209,6 +214,7 @@ button>p {
 
 
 
+
 /* online games and funny videos related style */
 .online-game-and-funny-videos-section {
     max-width: 1500px;
@@ -244,6 +250,8 @@ button>p {
     font-size: 0.8rem;
     color: #534C64;
 }
+
+
 
 
 /* hover-related syle */
@@ -298,6 +306,8 @@ button>p {
 }
 
 
+
+
 /* Play Instantly related style */
 .play-instantly-section {
     max-width: 1500px;
@@ -343,6 +353,7 @@ button>p {
 
 
 
+
 /* play game related style */
 .play-game-section {
     max-width: 1500px;
@@ -374,6 +385,8 @@ button>p {
     bottom: 250px;
     left: 520px;
 }
+
+
 
 
 /* gaming related style */
@@ -413,6 +426,8 @@ button>p {
     color: #F948B2;
     border: 1px solid #F948B2;
 }
+
+
 
 
 /* footer related style */
@@ -634,13 +649,11 @@ footer {
     }
 
     .games img {
-        width: 50%;
-        height: 90%;
         padding-right: 5px;
     }
 
     .games p {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
 
     .games:hover {
@@ -649,6 +662,11 @@ footer {
     }
 
 }
+
+
+
+
+
 
 /* For tab device */
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -787,20 +805,18 @@ footer {
         height: 45%;
         margin: .6rem;
         padding: 0.6rem 1rem;
-        border-radius: 25px;
+        border-radius: 42px;
         background-color: white;
         color: #0B0223;
         border: 1px solid white;
     }
 
     .games img {
-        width: 25%;
-        height: 100%;
         padding-right: 5px;
     }
 
     .games p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .games:hover {
