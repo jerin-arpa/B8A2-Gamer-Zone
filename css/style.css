@@ -626,26 +626,40 @@ footer {
         left: 160px;
     }
 
+
     .footer-section-list ul,
     .social-link-section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .social-link-section {
+        margin: 2.5rem;
     }
 
     .footer-section-list>ul>li {
-        padding: 0px 2rem 0px 0px;
-        width: 100%;
+        padding: 0px 0px 0px 0px;
+        font-size: 1rem;
+    }
+
+    .social-link-section i {
+        font-size: 2rem;
     }
 
     .terms-and-conditions-section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 0px 3rem 0px 0px;
+        font-size: 0.8rem;
     }
 
-    .terms-and-conditions-section>ul>li {
-        padding: 0px 3.4rem 0px 35px;
-        width: 100%;
+    .terms-and-conditions-section ul>li {
+        font-size: 0.8rem;
+    }
+
+    .terms-and-conditions-section p {
+        font-size: 0.8rem;
     }
 
     .gaming-section {
@@ -810,6 +824,10 @@ footer {
 
     .footer-section-list>ul>li {
         padding: 0px 0px 0px 0px;
+    }
+
+    .social-link-section {
+        margin: 2.5rem;
     }
 
     .social-link-section i {
