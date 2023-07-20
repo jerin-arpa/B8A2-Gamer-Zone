@@ -534,10 +534,24 @@ footer {
     .play-section,
     .play-game-section {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .right-align {
         text-align: center;
+    }
+
+    .play-section img {
+        width: 100%;
+    }
+
+    .banner-play-section {
+        text-align: center;
+    }
+
+    .banner-description {
+        padding-left: 50px;
     }
 
     .gamer-section-description {
@@ -553,12 +567,18 @@ footer {
     }
 
     .play-game {
-        width: 100%;
+        width: 90%;
+        padding: 5%;
         align-items: center;
     }
 
+    .play-game img {
+        width: 100%;
+        height: 100%;
+    }
+
     .play-game>p {
-        width: 26rem;
+        width: 100%;
         font-size: 0.8rem;
         color: #534C64;
         text-align: center;
@@ -694,6 +714,8 @@ footer {
     .play-section,
     .play-game-section {
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 
     .right-align {
@@ -715,12 +737,22 @@ footer {
     }
 
     .play-game {
-        width: 100%;
+        width: 90%;
+        padding: 5%;
         align-items: center;
     }
 
+    .play-game img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-section img {
+        width: 100%;
+    }
+
     .play-game>p {
-        width: 26rem;
+        width: 100%;
         font-size: 0.8rem;
         color: #534C64;
         text-align: center;
@@ -805,7 +837,7 @@ footer {
         height: 45%;
         margin: .6rem;
         padding: 0.6rem 1rem;
-        border-radius: 42px;
+        border-radius: 32px;
         background-color: white;
         color: #0B0223;
         border: 1px solid white;
